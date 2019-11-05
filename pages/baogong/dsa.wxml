@@ -1,0 +1,11 @@
+
+<import src="template.wxml" />
+
+<!--<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+-->
+
+<template is="{{name}}"  data="{{items}}">{{items.value}}</template>

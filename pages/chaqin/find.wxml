@@ -1,0 +1,34 @@
+ <view class="up">
+    <icon type="search" size="25" color='purple' />
+    <form class="page__bd"  >
+    
+ <view style="margin-top: -30px;"> <view>
+   
+      <input style="border: 0.01em solid;width: 80%;margin-left: 30px;margin-bottom: 10px;" placeholder='点击即可获取地点' disabled='true' bindtap="search" value="{{place}}">点击即可获取地点</input> 
+   
+ </view>
+  </view>
+  <button bindtap="submit">查询</button>
+    </form>
+  </view>
+ <view style="height: 50px;padding-top: 20px;">总签到次数:{{all}}</view>
+<map  style="width: 100%; height: 100%" bindmarkertap="detail" bindregionchange="hide"
+      id="myMap"
+      style="width: 100%; height: 500px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{mark}}"
+      show-location="true"
+      scale="{{scale}}"
+    >
+    <cover-view class="footer" wx:if="{{flag}}" bindtap="detail2" id="{{shopid}}">
+   <cover-view>商户编号:{{shopid}}\n</cover-view> 
+    <cover-view>用户编号:{{userid}}\n</cover-view> 
+   <cover-view> 地址:{{address}}\n</cover-view> 
+    <cover-view> 时间:{{time}}\n</cover-view> 
+     <cover-view>   日期:{{date}}\n</cover-view> 
+    </cover-view>
+    </map>
+
+
+  

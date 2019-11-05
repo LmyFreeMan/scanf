@@ -1,0 +1,35 @@
+.weui-input
+{
+   position: absolute;
+  left:30px;
+  top: 0;
+  right: 0;
+  height: 30px;
+  border: 3rpx solid #D9D9D9;
+  border-color:#aaa;
+  margin-top:2px
+}
+.footer {
+            position: fixed;
+            margin:0 auto;
+            left: 2%;
+            bottom: 0px;
+            width: 100%;
+            height: 150px;
+           background: blueviolet;
+        }
+
+.up
+{
+  margin-top: 5px;
+}
+.picker
+{
+  border:0.1ch solid;
+width:90%;
+margin-left:30px;
+margin-bottom:5px;
+height:30px;
+
+
+}

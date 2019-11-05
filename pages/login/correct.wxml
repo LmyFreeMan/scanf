@@ -1,0 +1,25 @@
+<form bindsubmit='submitButton' bindreset='' style='margin-top:50px;' > 
+    <view class='describ-item' style="margin-top: 150px;">
+      <view style="width: 120px;"> <text style='color:blue'>商户编号:</text></view>
+       <image class='login-icon'src='../assets/image/shanghu.png'></image> 
+      <input class="input-view"  placeholder='请输入商户编号' placeholder-class='placeholder-style' name="merchantNumber" type='text' value='{{merchantNumber}}'></input>
+    </view>
+    <view class='describ-item' >
+     <view style="width: 120px;"> <text style='color:blue'>用户编号:</text></view>
+       <image class='login-icon'src='../assets/image/yonhu.png'></image> 
+      <input class="input-view" placeholder='请输入用户编号' placeholder-class='placeholder-style' name="userNumber" type='text' value='{{userNumber}}' ></input>
+
+    </view>
+    <view class='describ-item'>
+     <view style="width: 200px;"> <text style='color:blue;' decode="{{true}}" space="{{true}}">原密码:</text></view>
+
+      <input class="input-view" placeholder='请输入密码' placeholder-class='placeholder-style' name= "passWord" type='password' style="margin-left: -40px;"></input>
+    </view>
+        <view class='describ-item' >
+     <view style="width: 120px;"> <text style='color:blue'>新密码:</text></view>
+       <image class='login-icon'src='../assets/image/yonhu.png'></image> 
+      <input class="input-view" placeholder='请输入用户编号' placeholder-class='placeholder-style' name="newpassword" type='password' ></input>
+
+    </view>
+    <button  form-type='submit' class='btn' hover-class='btn-checked'>提交</button>
+  </form>

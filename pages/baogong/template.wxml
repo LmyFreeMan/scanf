@@ -1,0 +1,32 @@
+
+<template name="one">
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+</template>
+
+<template name="two">
+<view>头疼了几天</view>
+<view>每次持续多长时间</view>
+<view>头疼在那个位置<checkbox-group name="cb" bindchange="touteng">
+        <label><checkbox value="1" />整个头部</label>
+        <label><checkbox value="2" checked="false" />偏头疼</label>
+        
+    </checkbox-group></view>
+
+
+</template>
+
+
+<template name="three">
+<view>头疼是什么样子</view>
+
+</template>
+
+
+<template name="four">
+<view>之前有没有类似的情况</view>
+
+</template>

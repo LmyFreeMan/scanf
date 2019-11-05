@@ -1,0 +1,12 @@
+<form bindsubmit='submitButton' bindreset='' style='margin-top:20px;' > 
+<view class='describ-item'  style='margin-top:50px'>
+     <view style="width: 120px;"> <text style='color:blue'>用户编号:</text></view>
+       <image class='login-icon'src='../assets/image/yonhu.png'></image> 
+      <input class="input-view" placeholder='请输入用户编号' placeholder-class='placeholder-style' name="userNumber" type='text' ></input>
+
+    </view>
+        <button  form-type='submit' class='btn' hover-class='btn-checked' id="1" style='margin-top:20px'>用户账号修改</button>
+        <button  form-type='submit' class='btn' hover-class='btn-checked' id="2" style='margin-top:20px'>用户账号删除</button>
+        <button  form-type='submit' class='btn' hover-class='btn-checked' id="3" style='margin-top:20px'>用户信息修改</button>
+        <button  form-type='submit' class='btn' hover-class='btn-checked' id="4" style='margin-top:20px'>用户信息删除</button>
+  </form>

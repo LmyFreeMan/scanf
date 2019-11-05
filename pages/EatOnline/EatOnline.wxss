@@ -1,0 +1,10 @@
+.section{
+  
+   margin:20rpx;
+   padding:20rpx
+
+}
+.type
+{
+  margin-left:20px;
+}

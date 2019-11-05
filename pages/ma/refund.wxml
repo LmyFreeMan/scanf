@@ -1,0 +1,30 @@
+<view class='prent-view'>
+  <form bindsubmit='commitBtn'>
+    <view class='layout'>
+      <view>微信订单号:</view>
+      <input class='inputView' name='transaction_id' ></input>
+     
+    </view>
+    <view class='layout'>
+      <view>商户订单号:</view>
+      <input  class='inputView' name='out_refund_no'  ></input>
+     
+    </view>
+    <view class='layout'>
+      <view>订单金额(元):</view>
+      <input  class='inputView'  name='total_fee'></input>
+    </view>
+    <view class='layout'>
+      <view>退款金额(元):</view>
+      <input   class='inputView' name="refund_fee"></input>
+    </view>
+    <view class='layout'>
+      <view>退款原因:</view>
+      <input  name='refund_desc'  class='inputView'  ></input>
+    </view>
+
+    <view class='layout'>
+      <button form-type='submit' style="width:50%">确定</button>
+    </view>
+  </form>
+</view>

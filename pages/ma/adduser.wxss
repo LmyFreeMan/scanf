@@ -1,0 +1,59 @@
+/* pages/login/login.wxss */
+
+.background-view {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+.radio-group .radio:last-child
+{
+ margin-left: 50px;
+}
+.describ-item {
+  overflow: auto;
+   display: flex; 
+  width: 600rpx;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+   margin-left: 50px;
+}
+
+.describ-item {
+  margin-left: 10px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.btn {
+  background-color: #fff;
+  width: 100%;
+  color: #00c4ff;
+  margin-top: -30px;
+}
+
+.btn-checked {
+  background-color: #88c4ff;
+}
+.radio-group
+{
+  width: 100%;
+}
+
+.input-view {
+  width: 100%;
+  color: black;
+  padding-left: 20rpx;
+}
+
+.login-icon {
+  width: 35rpx;
+  height: 33rpx;
+}
+
+.placeholder-style {
+  color: #fff;
+}

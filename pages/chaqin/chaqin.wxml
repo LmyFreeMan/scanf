@@ -1,0 +1,60 @@
+<form bindsubmit="formSubmit" >
+<view class="section" >  
+    <view class="picker">  
+      <input value='编号:{{userNumber}}' name="id" disabled="true"></input>
+    </view> 
+</view>  
+  
+
+<view class="section" >    
+    <view class="picker">  
+      <input value='区域:{{merchantNumber}}' name="zone" disabled="true"></input>
+    </view>  
+</view> 
+
+<view class='type'>位置:
+<view>
+<button class="checkbox"style="width: 30%;margin-top: -30px;"  bindtap='local'  >
+   点击获取
+  </button>
+<input style="height: 50%;margin-top: 10px;"  name="address" disabled='true'value="{{address}}" ></input>
+  
+  </view>
+  </view>
+  
+<view class='type' style="margin-top: 30px;">扫码:
+<view>
+<button class="checkbox"style="width: 30%;margin-top: -30px;"  bindtap='scan'  >
+   点击获取
+  </button>
+<input style="height: 50%;margin-top: 10px;" disabled='true'value="{{scan}}"  name="scan"></input>
+  
+  </view>
+  </view>
+
+
+<view class="section">  
+   
+    <view class="picker" id="date" name='time' style="margin-top: 20px;">  
+        <view> 日期
+    <textarea name="date" disabled='true' value='{{dates}}' style="margin-left: 45px;margin-top: -23px;">  </textarea> 
+    </view>
+    </view>  
+
+</view>  
+
+<view class="section">  
+   
+   
+    <view class="picker" id="date" name='time' style="margin-top: -120px;">  
+        <view> 时间
+    <textarea name="time" disabled='true' value='{{time}}' style="margin-left: 45px;margin-top: -23px;">  </textarea> 
+    </view>
+    </view>  
+
+</view>  
+
+
+<button formType="submit" style='width:60%;margin-top:-80px'>签到</button>
+
+</form>

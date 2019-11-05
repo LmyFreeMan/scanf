@@ -1,0 +1,25 @@
+<view class='background-view'>
+  <block wx:for="{{itemList}}">
+    <view class='list-item'  bindtap='viewClick' data-name='{{item.name}}'>
+      <image style='height:80rpx;width:80rpx;margin-bottom:10rpx' src="{{item.image}}" ></image>
+      <text> {{item.name}}</text>
+      <!-- <button class='shipments-view' bindtap='oderGoodsBtn'>订货扫描</button> -->
+    </view>
+  </block>
+
+   
+  <!-- <button class='shipments-view' bindtap='shipmentsBtn'>发货扫描</button> -->
+<!--
+  <button class='shipments-view' bindtap='goodsReceiptBtn'>收货扫描</button>
+
+  <button class='shipments-view' bindtap='baogongBtn'>报工扫描</button>
+  <button class='shipments-view' bindtap='baogongBtn'>签到扫描</button> -->
+  <!-- <view style='margin-top:50rpx'> -->
+  <!-- <text></text> -->
+  <!-- <a>报表查询</a> -->
+  <!-- <web-view src="https://456.xinyun1688.com/"></web-view> -->
+  <!-- <rich-text nodes="{{nodes}}"  ></rich-text> -->
+
+  <!-- </view> -->
+
+</view>

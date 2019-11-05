@@ -1,0 +1,24 @@
+<view class='prent-view'>
+  <form bindsubmit='commitBtn'>
+     <view class='layout'>
+      <view>文件编号:</view>
+      <input  class='inputView'class='inputView'  name="id" value='{{form}}'></input>
+    </view>
+    <view class='layout'>
+      <view>文件说明:</view>
+      <input class='inputView'  name="describe" value='{{form}}'></input>
+  
+    </view>
+    <view class='layout'>
+      <view>文件名字:</view>
+      <input class='inputView'  name="pic" value='{{form}}'></input>
+    </view>
+    <view class='layout'>    
+            <button  style="width:30%" formType="submit">文件上传</button>
+    </view>
+  </form>
+</view>
+    <view bindtap="quit">
+<progress percent="{{jindu}}" style='margin-top:200px;'  show-info="true"  wx:if="{{jindu > 0}}"/>
+</view>
+

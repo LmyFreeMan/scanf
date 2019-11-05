@@ -1,0 +1,9 @@
+<view class='prent-view'>
+  <form bindsubmit='commitBtn'>
+    <view class='layout'>
+      <input  class='inputView'  name="sousuo"></input>
+            <button form-type='submit' style="width:30%">搜索</button>
+    </view>
+  
+  </form>
+</view>

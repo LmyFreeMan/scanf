@@ -1,0 +1,36 @@
+ <view class="up">
+    <icon type="search" size="25" color='purple' style="/*margin-top:*/padding-top: 10px;"/>
+    <form class="page__bd" bindsubmit="formSubmit" bindreset="formReset" >
+    
+ <view style="width: ;height: 35px;margin-left: 50px;margin-top: 10px;"> <picker mode="date" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange"style="margin-top: -40px;"  name='pick'  placeholder="点击即可获取时间">
+    <view class="picker" style=''>
+       {{time}}
+    </view>
+  </picker>
+  </view>
+  <button formType="submit" style='width:30%;margin-left:60%;margin-top:-40px'>查询</button>
+ 
+    </form>
+    <view style='width:100%;margin-left:35%;margin-top:10px'>姓名:{{data[0][5]}}</view>
+
+
+    <view class="container">
+<view class="table" style="margin-top: -70px;">
+<view class="tr">
+<view class="th"><view style='margin-top:15px'>卡号</view></view>
+<view class="th"><view style='margin-top:15px'><view>工序</view></view></view>
+
+<view class="th"><view style="margin-top: 15px;">数量</view></view>
+
+</view>
+<view class="tr" wx:for="{{data}}">
+<view class="td"> {{data[index][4]}}  </view>
+<view class="td" style="margin-left: -10%;"> {{data[index][8]}}  </view>
+
+<view class="td"> {{data[index][11]}} </view>
+</view>
+</view>
+</view>
+  </view>
+
+

@@ -1,0 +1,32 @@
+<!--pages/login/login.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  style='width:100%;'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="800" height="150" style="width: 100%;"/>
+    </swiper-item>
+  </block>
+</swiper>
+  <image  class='ba'  mode='scaleToFill' style='position: fixed;height:100%;width:100%'></image>  
+<view class='background-view'style="/*padding-top: -50px*/margin-top: -100px;" >
+  <form bindsubmit='submitButton' bindreset='' > 
+    <view class='describ-item'>
+      <view style="width: 120px;"> <text style='color:blue'>商户编号:</text></view>
+       <image class='login-icon'src='../assets/image/shanghu.png'></image> 
+      <input class="input-view"  placeholder='请输入商户编号' placeholder-class='placeholder-style' name="merchantNumber" type='text'></input>
+    </view>
+    <view class='describ-item'>
+     <view style="width: 120px;"> <text style='color:blue'>用户编号:</text></view>
+       <image class='login-icon'src='../assets/image/yonhu.png'></image> 
+      <input class="input-view" placeholder='请输入用户编号' placeholder-class='placeholder-style' name="userNumber" type='text' ></input>
+
+    </view>
+    <view class='describ-item'>
+     <view style="width: 200px;"> <text style='color:blue;' decode="{{true}}" space="{{true}}">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  码:</text></view>
+
+      <input class="input-view" placeholder='请输入密码' placeholder-class='placeholder-style' name= "passWord" type='password' style="margin-left: -40px;"></input>
+    </view>
+    <button  form-type='submit' class='btn' hover-class='btn-checked'>登录</button>
+  </form>
+    
+</view>

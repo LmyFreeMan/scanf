@@ -1,0 +1,6 @@
+<button bindtap="Payment" id="0.5">充值1元</button>
+<button bindtap="Payment" id="5">充值5元</button>
+<button bindtap="Payment" id="10">充值10元</button>
+<button bindtap="Payment" id="20">充值20元</button>
+<button bindtap="search">查询余额</button>
+<button bindtap="refund">退款中心</button>

@@ -1,0 +1,5 @@
+你的余额为:{{last}}元
+<button bindtap="Payment">餐费充值</button>
+<view  wx:if="{{flag}}" >
+< image src="https://456.xinyun1688.com/pdf/createCode.php?code_url={{code_url}}" style="width:100%;height:500px;" ></image>
+</view>

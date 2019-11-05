@@ -1,0 +1,38 @@
+<view class='prent-view'>
+  <form bindsubmit='commitBtn'>
+    <view class='layout'>
+      <view>工序编号:</view>
+      <input disabled='disabled' class='inputView' value='{{scanCode1}}' name="gongxubianhao"></input>
+      <button bindtap='scanCode1'>扫码 </button>
+    </view>
+    <view class='layout'>
+      <view>物料编号:</view>
+      <input disabled='disabled' class='inputView' value='{{scanCode2}}' name="wuliaobianhao"></input>
+      <button bindtap='scanCode2'> 扫码 </button>
+    </view>
+    <view class='layout'>
+      <view>区域编号:</view>
+      <input disabled='disabled' class='inputView' value='{{areaNumber}}' name='quyubianhao'></input>
+    </view>
+    <view class='layout'>
+      <view>用户编号:</view>
+      <input disabled='disabled'  value='{{userNumber}}' class='inputView' name="yonghubianhao"></input>
+    </view>
+    <view class='layout'>
+      <view>系统日期:</view>
+      <input disabled='disabled' name='systemTime'  class='inputView' value='{{systemTime}}' ></input>
+    </view>
+    <view class='layout'>
+      <view>数量报工:</view>
+      <input  class='inputView' name="shuliangbaogong" value='{{shuliang}}'></input>
+    </view>
+    <view class='layout'>
+      <view style='white-space:pre'>备      注:</view>
+      <input  type='text' class='inputView' name="remark" value='{{beizhu}}'></input>
+      <button bindtap='scanCode3'> 扫码 </button>
+    </view>
+    <view class='layout'>
+      <button form-type='submit' style="width:50%">确定</button>
+    </view>
+  </form>
+</view>

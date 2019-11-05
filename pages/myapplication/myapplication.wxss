@@ -1,0 +1,28 @@
+/* pages/myapplication/myapplication.wxss */
+
+.background-view {
+  background-color: #cccccc;
+}
+
+.list-item {
+  width: 372rpx;
+  height: 180rpx;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topitem {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.landscape-layout{
+  width: 100%;
+  height: 400rpx;
+display: flex;
+justify-content: space-around
+}

@@ -1,0 +1,32 @@
+<form bindsubmit="formSubmit" >
+<view class="section" >  
+    <view class="picker">  
+      <input value='编号:{{userNumber}}' name="id" disabled="true"></input>
+    </view> 
+</view>  
+  
+
+<view class="section" >    
+    <view class="picker">  
+      <input value='区域:{{merchantNumber}}' name="zone" disabled="true"></input>
+    </view>  
+</view> 
+<checkbox-group  name='check'>
+<view class='type'>餐别:
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+  </view>
+</checkbox-group>
+
+
+<view class="section">  
+  <picker mode="date" value="{{date}}" start="{{eatstartime}}" end="{{eatendtime}}" name='date' bindchange="bindDateChange"> 
+    <view class="picker" id="date" name='date'>  
+      日期: {{dates}}  
+    </view>  
+  </picker>  
+</view>  
+<button formType="submit" style='margin-top:50px'>提交</button>
+
+</form>

@@ -1,0 +1,13 @@
+<view class='prent-view'>
+  <form bindsubmit='commitBtn'>
+    <view class='layout'>
+      <input  class='inputView'  name="susou" ></input>
+            <button  style="width:30%" value='{{form}}'>文件编号</button>
+    </view>
+
+<view class='layout'>    
+            <button  style="width:30%" type="warn" formType="submit">提交</button>
+    </view>
+    
+  </form>
+  </view>

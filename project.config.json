@@ -1,0 +1,225 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.1.1",
+	"appid": "wx8db6e2e394175551",
+	"projectname": "guaangzhou",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 30,
+			"list": [
+				{
+					"id": -1,
+					"name": "主界面",
+					"pathName": "pages/main/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "报工界面",
+					"pathName": "pages/baogong/baogong",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的应用",
+					"pathName": "pages/myapplication/myapplication",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "ID报工",
+					"pathName": "pages/IDbaogong/IDbaogong",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "手动输入",
+					"pathName": "pages/inputsearch/inputsearch",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/chaqin/show",
+					"pathName": "pages/chaqin/show",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/chaqin/show",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "find",
+					"pathName": "pages/chaqin/find",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "content",
+					"pathName": "pages/chaqin/content",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/chaqin/chaqin",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/chaqin/chaqin",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/main/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/main/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "first",
+					"pathName": "pages/ma/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "first",
+					"pathName": "pages/chaqin/chaqin",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "monkey",
+					"pathName": "pages/ma/makemoney",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/ma/makemoney",
+					"pathName": "pages/ma/makemoney",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "baogong",
+					"pathName": "pages/baogong/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "baogong",
+					"pathName": "pages/baogong/chanliangchaxun",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "baogong",
+					"pathName": "pages/baogong/chanliangchaxun",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "baogong",
+					"pathName": "pages/baogong/chanliangchaxun",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "baogong",
+					"pathName": "pages/baogong/chanliangchaxun",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "的",
+					"pathName": "pages/baogong/chanliangchaxun",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "的",
+					"pathName": "pages/ma/makemoney",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "d",
+					"pathName": "pages/baogong/das",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "d",
+					"pathName": "pages/baogong/dsa",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "d",
+					"pathName": "pages/baogong/das",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "d",
+					"pathName": "pages/baogong/das",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "template",
+					"pathName": "pages/baogong/dsa",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/chaqin/test",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/ma/usermanager"
+				}
+			]
+		}
+	}
+}

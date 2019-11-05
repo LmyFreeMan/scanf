@@ -1,0 +1,10 @@
+<block wx:for="{{ar}}">
+
+<view style="border: 0.01ch solid;margin-top: 2px;" bindtap='detail' id="{{location[ar[index]].a2}}">
+<view> 商户编号:{{location[ar[index]].a2}} </view>
+<view> 用户编号:{{location[ar[index]].a1}} </view>
+<view> 日期:{{location[ar[index]].a4}} </view>
+<view> 时间:{{location[ar[index]].a5}} </view>
+<view> 地址:{{location[ar[index]].a3}} </view>
+</view>
+</block>

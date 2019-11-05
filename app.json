@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/baogong/baogong",
+    "pages/IDbaogong/IDbaogong",
+    "pages/myapplication/myapplication",
+    "pages/showWebview/showWebview",
+    "pages/inputsearch/inputsearch",
+    "pages/search/search",
+    "pages/EatOnline/EatOnline",
+    "pages/chaqin/chaqin",
+    "pages/chaqin/show",
+    "pages/chaqin/find",
+    "pages/chaqin/content",
+    "pages/chaqin/detail",
+    "pages/inputsearch/main",
+    "pages/chaqin/main",
+    "pages/baogong/main",
+    "pages/chaqin/test",
+    "pages/ma/main",
+    "pages/login/correct",
+    "pages/ma/ownner",
+    "pages/ma/makemoney",
+    "pages/baogong/chanliangchaxun",
+    "pages/baogong/dsa",
+    "pages/baogong/template",
+    "pages/ma/last",
+    "pages/ma/refund",
+    "pages/ma/addpassword",
+    "pages/ma/adduser",
+    "pages/ma/usermanager",
+    "pages/ma/usercorrect"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3391D4",
+    "navigationBarTitleText": "用户登录",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/ma/main",
+        "text": "主页",
+        "iconPath": "pages/assets/image/frist.png",
+        "selectedIconPath": "pages/assets/image/frist.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "收发",
+        "iconPath": "pages/assets/image/shoufa.png",
+        "selectedIconPath": "pages/assets/image/shoufa.png"
+      },
+      {
+        "pagePath": "pages/baogong/main",
+        "text": "报工",
+        "iconPath": "pages/assets/image/book.png",
+        "selectedIconPath": "pages/assets/image/book.png"
+      },
+      {
+        "pagePath": "pages/chaqin/main",
+        "text": "签到",
+        "iconPath": "pages/assets/image/qiandao.png",
+        "selectedIconPath": "pages/assets/image/qiandao.png"
+      },
+      {
+        "pagePath": "pages/inputsearch/main",
+        "text": "文件",
+        "iconPath": "pages/assets/image/file.png",
+        "selectedIconPath": "pages/assets/image/file.png"
+      }
+    ]
+  }
+}

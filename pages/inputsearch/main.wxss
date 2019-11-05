@@ -1,0 +1,30 @@
+/* pages/main/main.wxss */
+
+/* .background-view {
+  display: flex;
+  height: 100%;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .shipments-view{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  
+} */
+
+.list-item {
+ width: 32.7%;
+  border: 0.005ch solid #C0C0C0;
+  height: 200rpx;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
